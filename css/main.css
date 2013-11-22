@@ -1,0 +1,91 @@
+html{
+	background-image:url('image/background.jpg');
+}
+
+#home {
+	z-index: -999;
+  	min-height: 100%;
+  	min-width: 59.375%;
+  	width: 100%;
+  	height: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+   	
+}
+
+body {
+    border-radius: 1.25%;
+    border-width: 2em;
+    height: 100%;
+    line-height: 125%;
+    margin: 0 auto;
+    padding: 1.875%;
+    text-align: center;
+    width: 60%;
+    color: #999; 
+    background-color: #0D0C10;
+	
+}
+
+h1{
+	text-align: center;
+	float: right;
+}
+
+h1 img{
+	height: 25%;
+	width: 25%;
+	display: block;
+	margin-top: -60px;
+	float: left;
+}
+
+#station video{
+	box-shadow: -2px 0px 20px #57220B;
+}
+
+#vacation, #sponsor{
+	box-shadow: 1px 1px 1px 1px #8A360F;
+	border-width: 1em;
+	text-align: center;
+	border: 1em;
+	display: inline;
+	height: 400px;
+	width: 240px;
+	float: left;	
+}
+
+#vacation video, #sponsor video{
+	width: 75%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#vacation p, #sponsor p{
+	text-align: left;
+	padding: 1em;
+	width: 214px;
+}	
+
+#sponsor{
+	border: 3em;
+	float: left;
+}	
+
+#events{
+	float: left;
+	border: 3em;
+}
+
+#events li{
+	list-style-type: none;
+	border: 1em;
+	border-width: 1em;
+	text-align: left;
+}	
+
+footer{
+	clear: left;
+}	
+	
