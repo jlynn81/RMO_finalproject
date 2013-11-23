@@ -118,7 +118,18 @@ h2{
 
 #events a:hover{color:#ef8843;}
 		
-		
+#music{
+	float: right;
+    position: relative;
+    top: -80px;
+	height: 100px;
+    right: 75px;
+    width: 100px;
+}
+
+#music p{
+	text-align: left;
+}			
 
 footer{
 	background-image: url("image/header.jpg");
