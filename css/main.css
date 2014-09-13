@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
     padding: 1.875%;
     text-align: center;
-    width: 60%;
+    width: 75%;
     color: #999; 
     background-color: #0D0C10;
 	
@@ -121,10 +121,8 @@ h2{
 #music{
 	float: right;
     position: relative;
-    top: -80px;
-	height: 100px;
-    right: 75px;
-    width: 100px;
+    top: 2em;left: -2em;
+    width: 15%;
 }
 
 #music p{
