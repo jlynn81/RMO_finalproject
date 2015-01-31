@@ -17,10 +17,9 @@ html{
 body {
     border-radius: 1.25%;
     border-width: 2em;
-    height: 100%;
     line-height: 125%;
     margin: 0 auto;
-    padding: 1.875%;
+    padding: 2%;
     text-align: center;
     width: 75%;
     color: #999; 
@@ -56,6 +55,9 @@ h1 img{
 
 #station video{
 	box-shadow: -2px 0px 20px #57220B;
+	margin-top: 3%;
+	height: 75%;
+	width: 75%;
 }
 
 #vacation, #sponsor{
@@ -82,11 +84,6 @@ h1 img{
 	width: 214px;
 }	
 
-#sponsor{
-	border-width: 1em;
-	float: left;
-}
-
 h2{
 	color: #8A360F;
 	font-size: 50px;
@@ -95,9 +92,7 @@ h2{
 
 #events{
     float: left;
-    height: 400px;
     width: 240px;
-    margin: 10px;
 }
 
 #events ul{
